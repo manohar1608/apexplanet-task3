@@ -1,4 +1,4 @@
-const API_KEY = "bf824e37";
+const API_KEY = "add_your_api_key";
 const searchInput = document.getElementById("searchInput");
 const searchBtn = document.getElementById("searchBtn");
 const movieList = document.getElementById("movie-list");
