@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Movie Search App</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="navbar">
+    <h2 class="logo">MOVIE APP</h2>
+    <div class="search-box">
+      <input type="text" id="searchInput" placeholder="Search your favourite movies..." />
+      <button id="searchBtn">Search</button>
+    </div>
+  </header>
+
+  <div class="main-container">
+    <div id="movie-list" class="card-container"></div>
+  </div>
+
+  <div id="modal" class="modal hidden">
+    <div class="modal-content">
+      <span class="close">&times;</span>
+      <div id="modal-body"></div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
